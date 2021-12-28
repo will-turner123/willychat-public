@@ -1,0 +1,65 @@
+#land{
+    width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #ffff;
+}
+#hero{
+    min-height: 70vh;
+    width: 100%;
+    min-width: 100%;
+    color: white;
+    background: rgb(79,134,247);
+    background: linear-gradient(354deg, rgba(79,134,247,1) 22%, rgba(124,146,228,1) 100%);
+}
+
+.wave-container {
+    position: relative;
+    background: #4f86f7;
+    height: 0;
+    margin-bottom: 5rem;
+  }
+  
+  .wave {
+    position: relative;
+    height: 60px;
+    width: 100%;
+    background: rgb(79,134,247);
+    bottom: 1px;
+  }
+  
+  .wave::before, .wave::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+  }
+  
+  .wave::before {
+    width: 55%;
+    height: 109%;
+    background-color: #fff;
+    right: -1.5%;
+    top: 60%;
+  }
+  .wave::after {
+    width: 55%;
+    height: 100%;
+    background-color: #4f86f7;
+    border-radius: 100% 50%;
+    left: -1.5%;
+    top: 40%;
+  }
+
+  #social-info{
+    background-color: #F6F6F6;
+  }
+
+.lander-nav{
+    left: 0;
+}
+
+.badge-pill{
+    border-radius: 10rem;
+}
