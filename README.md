@@ -3,6 +3,7 @@
 
 WillyChat is an instant messaging platform similar to Slack or Discord, built with React on the frontend and Firebase on the backend. 
 You can view a live demo at:  https://willychat.herokuapp.com 
+
 (Note that it may take a second for the app to turn back on!)
 
 ## Features
